@@ -1,0 +1,28 @@
+.profile-box{
+  background-color: #ff574a;
+  color: #fff;
+  border-radius: 20px;
+  text-align: center;   /*to align the content of div in center*/
+  padding: 40px 90px;
+}
+
+.profile-pic{
+  width: 150px;
+  border-radius: 50%;   /*to make the profile pic circular*/
+  padding: 6px;
+}
+
+.menu-icon,.setting-icon{
+  width: 25px;
+}
+
+.social-media img{
+  width: 20px;
+  cursor: pointer;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  margin: 0px -50px;                 /*applied -ve margin here*/
+}
